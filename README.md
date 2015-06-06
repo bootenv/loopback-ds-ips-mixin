@@ -1,5 +1,6 @@
+[![NPM](https://nodei.co/npm/loopback-ds-ips-mixin.png?compact=true)](https://nodei.co/npm/loopback-ds-ips-mixin/)
 [![license](https://img.shields.io/badge/license-Apache_2.0-blue.svg)]()
-[![engine](https://img.shields.io/badge/iojs-2.1-yellow.svg)]()
+[![engine](https://img.shields.io/badge/iojs-v2.1.0-yellow.svg)]()
 [![npm](https://img.shields.io/npm/v/npm.svg)]()
 [![Build Status](https://travis-ci.org/bootenv/loopback-ds-ips-mixin.svg?branch=master)](https://travis-ci.org/bootenv/loopback-ds-ips-mixin)
 [![Coverage Status](https://coveralls.io/repos/bootenv/loopback-ds-ips-mixin/badge.svg)](https://coveralls.io/r/bootenv/loopback-ds-ips-mixin)

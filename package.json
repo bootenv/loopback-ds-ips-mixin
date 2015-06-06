@@ -3,7 +3,7 @@
   "description": "A mixin to automatically generate createdByIp and updatedByIp attributes for loopback Models",
   "version": "1.0.0",
   "author": "Bootenv",
-  "license": "Apache 2.0",
+  "license": "Apache-2.0",
   "repository": {
     "type": "git",
     "url": "git@github.com:bootenv/loopback-ds-ips-mixin.git"
@@ -15,7 +15,7 @@
   "main": "index.js",
   "scripts": {
     "pretest": "jscs . && jshint .",
-    "test": "nyc tap ./test.js",
+    "test": "nyc tap -c ./test.js",
     "coverage": "nyc report --reporter=text-lcov | coveralls",
     "outdated": "npm outdated --depth=0"
   },
@@ -24,9 +24,9 @@
     "strongloop"
   ],
   "dependencies": {
-  },
-  "peerDependencies": {
-    "loopback-datasource-juggler": ">=2.23.0"
+    "ipware": "0.0.5",
+    "debug": "2.x",
+    "loopback-datasource-juggler": ">=2.29.2"
   },
   "devDependencies": {
     "coveralls": "^2.11.2",

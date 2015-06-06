@@ -25,7 +25,9 @@
   ],
   "dependencies": {
     "ipware": "0.0.5",
-    "debug": "2.x",
+    "debug": "2.x"
+  },
+  "peerDependencies": {
     "loopback-datasource-juggler": ">=2.29.2"
   },
   "devDependencies": {

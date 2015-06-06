@@ -1,16 +1,13 @@
 ---
 language: node_js
 node_js:
-  - "0.12.2"
-  - iojs
+  - "iojs-v2.1"
+  - "iojs"
 
 sudo: false
 
 cache:
   directories:
     - node_modules
-
-install:
-  - npm install
 
 after_success: npm run coverage

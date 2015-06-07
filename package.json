@@ -1,7 +1,7 @@
 {
   "name": "loopback-ds-ips-mixin",
   "description": "A mixin to automatically generate createdByIp and updatedByIp attributes for loopback Models",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": "Bootenv",
   "license": "Apache-2.0",
   "repository": {

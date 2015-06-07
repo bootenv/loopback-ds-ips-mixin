@@ -149,6 +149,12 @@ Run with debugging output on:
   DEBUG='loopback-ds-ips-mixin' npm test
 ```
 
+VERSIONS
+=============
+
+ - [1.0.0](https://github.com/bootenv/loopback-ds-ips-mixin/releases/tag/1.0.0) 
+ - 1.0.1 ([current](https://github.com/bootenv/loopback-ds-ips-mixin/releases/tag/1.0.1))
+
 LICENSE
 =============
 [Apache-2.0](LICENSE)

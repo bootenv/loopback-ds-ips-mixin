@@ -1,4 +1,5 @@
 [![NPM](https://nodei.co/npm/loopback-ds-ips-mixin.png?compact=true)](https://nodei.co/npm/loopback-ds-ips-mixin/)
+
 [![license](https://img.shields.io/badge/license-Apache_2.0-blue.svg)]()
 [![engine](https://img.shields.io/badge/iojs-v2.1.0-yellow.svg)]()
 [![npm](https://img.shields.io/npm/v/npm.svg)]()
@@ -110,7 +111,7 @@ In this example we change `createdByIp` and `updatedByIp` to `createdIp` and `la
       }
     },
     "mixins": {
-      "TimeStamp" : {
+      "IPs" : {
         "createdByIp" : "createdIp",
         "updatedByIp" : "lastUpdatedIp",
         "required" : false

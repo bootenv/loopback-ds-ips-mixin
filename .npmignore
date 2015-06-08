@@ -4,3 +4,4 @@
 .nvmrc
 .jshintignore
 .travis.yml
+.nyc_output
